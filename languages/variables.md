@@ -1,5 +1,16 @@
 # Variables Naming
 
+### Numbers
+
+For numbers, think about words that describe numbers. Words like ````maximum````, ```minimum```, ```total``` will .
+
+```javascript
+// good
+const minPugs = 1;
+const maxPugs = 5;
+const totalPugs = 3;
+```
+
 ### Arrays
 
 ```javascript
@@ -28,17 +39,6 @@ const fruits = [{
 const isOpen = true;
 const canWrite = true;
 const hasFruit = true;
-```
-
-### Numbers
-
-For numbers, think about words that describe numbers. Words like ````maximum````, ```minimum```, ```total``` will .
-
-```javascript
-// good
-const minPugs = 1;
-const maxPugs = 5;
-const totalPugs = 3;
 ```
 
 ### Functions
