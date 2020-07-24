@@ -11,6 +11,14 @@ const maxPugs = 5;
 const totalPugs = 3;
 ```
 
+### Constants
+
+```javascript
+const MAX_WIDTH = 40;
+const SCREEN_HEIGHT = 500;
+const GREEN = "#E78F47";
+```
+
 ### Arrays
 
 ```javascript
@@ -72,14 +80,6 @@ class User {
 
 let user = new User("Name");
 user.getName(); // Name
-```
-
-### Constants
-
-```javascript
-const MAX_WIDTH = 40;
-const SCREEN_HEIGHT = 500;
-const GREEN = "#E78F47";
 ```
 
 ### Handlers
