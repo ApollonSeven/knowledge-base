@@ -2,8 +2,22 @@
 
 ## Installing
 ### RN cli
+1. Install Android Studio
+    * ```Android SDK Platform 28```
+    * ```Intel x86 Atom_64 System Image``` or ```Google APIs Intel x86 Atom System Image```
+
+1. Install rn-cli
 ```sh
 $ npm install -g react-native-cli
+```
+1. Configure the ANDROID_HOME environment variable
+Add the following lines to your $HOME/.bash_profile or $HOME/.bashrc config file:
+```sh
+export ANDROID_HOME=$HOME/Android/Sdk
+export PATH=$PATH:$ANDROID_HOME/emulator
+export PATH=$PATH:$ANDROID_HOME/tools
+export PATH=$PATH:$ANDROID_HOME/tools/bin
+export PATH=$PATH:$ANDROID_HOME/platform-tools
 ```
 
 ### Expo
