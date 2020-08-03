@@ -1,5 +1,11 @@
 # React Native
 
+## Docs
+
+[React Native](https://reactnative.dev/)
+[Expo](https://expo.io/)
+
+
 ## Installing
 ### RN cli
 1. Install Android Studio
