@@ -6,11 +6,12 @@
     * ```Android SDK Platform 28```
     * ```Intel x86 Atom_64 System Image``` or ```Google APIs Intel x86 Atom System Image```
 
-1. Install rn-cli
+2. Install rn-cli
 ```sh
 $ npm install -g react-native-cli
 ```
-1. Configure the ANDROID_HOME environment variable
+
+3. Configure the ANDROID_HOME environment variable
 Add the following lines to your $HOME/.bash_profile or $HOME/.bashrc config file:
 ```sh
 export ANDROID_HOME=$HOME/Android/Sdk
@@ -32,7 +33,7 @@ Create project with TypeScript configuration
 $ npm install -g create-react-native-app
 $ create-react-native-app my-app --scripts-version=react-native-scripts-ts
 $ cd my-app/
-$ npm start
+$ npm start && react-native run-android
 ```
 
 ### Expo
@@ -41,3 +42,9 @@ $ expo init myNewProject
 $ cd myNewProject
 $ expo start
 ```
+
+## Expo eject 
+1. Run command:
+```expo eject```
+2. ???
+3. PROFIT!
