@@ -5,11 +5,11 @@
 1. Install Android Studio
     * ```Android SDK Platform 28```
     * ```Intel x86 Atom_64 System Image``` or ```Google APIs Intel x86 Atom System Image```
-1. Install rn-cli
+2. Install rn-cli
 ```sh
 $ npm install -g react-native-cli
 ```
-1. Configure the ANDROID_HOME environment variable
+3. Configure the ANDROID_HOME environment variable
 Add the following lines to your $HOME/.bash_profile or $HOME/.bashrc config file:
 ```sh
 export ANDROID_HOME=$HOME/Android/Sdk
@@ -44,5 +44,5 @@ $ expo start
 ## Expo eject 
 1. Run command:
 ```expo eject```
-1. ???
-1. PROFIT!
+2. ???
+3. PROFIT!
