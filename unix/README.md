@@ -1,3 +1,3 @@
 # Unix
 
-[Grub Recovery](unix/grub-recovery/README.md)
+[Grub Recovery](grub-recovery/README.md)
