@@ -123,3 +123,15 @@ android {
     }
 }
 ```
+
+With Dex:
+1. Add strings to ```android/app/buid.gradle```
+```
+android {
+    ...
+    defaultConfig {
+        ...
+        multiDexEnabled true
+    }
+}
+```

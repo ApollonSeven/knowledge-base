@@ -1,5 +1,5 @@
 # Javascript
 
-* [NVM](langs/js/nvm)
-* [React](langs/js/react)
-* [React Native](langs/js/react-native)
+* [NVM](nvm)
+* [React](react)
+* [React Native](react-native)
