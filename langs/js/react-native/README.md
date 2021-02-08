@@ -135,3 +135,11 @@ android {
     }
 }
 ```
+
+Error: ```FATAL ERROR: CALL_AND_RETRY_LAST Allocation failed - JavaScript heap out of memory```
+1. Add strings to ```android/app/build.gradle```
+```
+project.ext.react = [
+    nodeExecutableAndArgs: ["node", "--max_old_space_size=8192"]
+]
+```
