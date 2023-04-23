@@ -25,13 +25,13 @@
 - `time` элемент позволяющий установить время 
 <br><input type="time" />
 - `number` поле для ввода целочисленных. Имеет атрибуты `min`, `max` и `step`, которые устанавливают поведение этого поля 
-<br><input type="number" />
+<br><input type="number" min="0" max="10" step="2" />
 - `range` элемент управления, который устанавливает число в диапазоне. Используется вместе с `min` и `max` 
 <br><input type="range" min="0" max="10" />
 - `checkbox` отображает флажок, позволяющий выбирать/отменять выбор отдельных значений 
-<br><input type="checkbox" />
+<br><input type="checkbox" /><br><input type="checkbox" />
 - `radio` отображает переключатель, позволяющий выбрать одно значение из нескольких вариантов с одинаковым значением атрибута `name`
-<br/><input type="radio" name="name" /><br/><input type="radio" name="name" />
+<br/><input type="radio" name="name" /><br/><input type="radio" name="name" /><br/><input type="radio" name="name" />
 - `button` создает кнопку с надписью указанной в атрибуте `value`
 <br><input type="button" value="Кнопка" />
 
@@ -62,7 +62,7 @@
     <option value="2">Noob Saibot</option>
     <option value="3">Baraka</option>
     <option value="4">Sektor</option>
-    <option value="5">Sheeva</option>
+    <option value="5" label="Sheeva"></option>
 </select>
 ```
 Реальный пример находится в `./examples/select.html`
@@ -77,5 +77,5 @@
 - `value` значение, которое будет отправлено с формой, если выбран этот вариант
 - `label` текст для надписи, указывающий значение параметра. Если атрибут `label` не определен, его значение равно текстовому содержимому элемента
 
-> **Логический атрибут** это атрибут имеющий два значения - true либо false. Чтобы установить значение `true` для такого атрибута достаточно просто написать его наименование, например `<select required>`
+> **Логический атрибут** это атрибут имеющий два значения - `true` либо `false`. Чтобы установить значение `true` для такого атрибута достаточно просто написать его наименование, например `<option selected>`
 
