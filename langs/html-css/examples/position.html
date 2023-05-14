@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Position</title>
+    <style>
+        div {
+            background-color: aliceblue;
+            margin-bottom: 10px;
+            padding: 12px;
+        }
+
+    </style>
+</head>
+<body>
+    <h1 style="position: static">
+        Заголовок {position: static}
+    </h1>
+    <div>Стандартное расположение блока</div>
+    <h1 style="position: relative; top: 40px">Заголовок {position: relative; top: 40px}</h1>
+    <div>Смещение блока относительно его нормального расположения</div>
+    <h1 style="position: absolute; bottom: 20px">Заголовок {position: absolute; bottom: 20px}</h1>
+    <div>Абсолютно позиционированный блок (Куда он исчез?? Ааа, он снизу)</div>
+    <h1 style="position: fixed; top: 50%; left: 50%;">Заголовок {position: fixed; top: 50%; left: 50%;}</h1>
+    <div>Фиксированный блок (Где он? Тоже свалил вправо в середину. Прокрути страницу и будет магия.)</div>
+    <div style="height: 200vh; background-color: #fff;"></div>
+</body>
+</html>
